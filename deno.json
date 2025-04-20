@@ -1,0 +1,26 @@
+{
+  "imports": {
+    "lit": "npm:lit@^3.3.0",
+    "vite": "npm:vite@^6.3.2"
+  },
+  "nodeModulesDir": "auto",
+  "tasks": {
+    "build": "deno run -A npm:vite build",
+    "dev": "deno run -A npm:vite"
+  },
+  "compilerOptions": {
+    "lib": [
+      "deno.ns",
+      "dom",
+      "dom.iterable",
+      "es2021"
+    ],
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noImplicitOverride": false,
+    "noFallthroughCasesInSwitch": true
+  }
+}
